@@ -65,10 +65,10 @@ function addFiles(host: Tree, options: NormalizedSchema) {
     template: '',
     dot: '.',
   };
-  const files = options.type == 'application' ? 'files' : 'files_library';
+
   generateFiles(
     host,
-    path.join(__dirname, files),
+    path.join(__dirname, 'files'),
     options.projectRoot,
     templateOptions
   );

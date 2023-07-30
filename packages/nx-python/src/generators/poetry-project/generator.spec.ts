@@ -29,7 +29,6 @@ describe('application generator', () => {
     codeCoverage: false,
     codeCoverageHtmlReport: false,
     codeCoverageXmlReport: false,
-    addDevDependencies: false,
   };
 
   beforeEach(() => {

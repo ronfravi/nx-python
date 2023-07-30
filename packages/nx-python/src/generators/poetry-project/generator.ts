@@ -29,7 +29,6 @@ interface NormalizedSchema extends PoetryProjectGeneratorSchema {
   devDependenciesProjectPkgName?: string;
   pythonAddopts?: string;
   parsedTags: string[];
-  addDevDependencies: false;
 }
 
 function normalizeOptions(
@@ -175,7 +174,7 @@ function addFiles(tree: Tree, options: NormalizedSchema) {
 
   generateFiles(
     tree,
-    path.join(__dirname, 'files'),
+    path.join(__dirname, 'files', 'base'),
     options.projectRoot,
     templateOptions
   );
