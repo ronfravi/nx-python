@@ -1,0 +1,16 @@
+{
+  "name": "@skerna/util",
+  "description": "Shared utilities for @skerna packages",
+  "version": "2.0.0",
+  "main": "src/index.js",
+  "private": false,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:lucasvieirasilva/nx-plugins.git",
+    "directory": "packages/util"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
