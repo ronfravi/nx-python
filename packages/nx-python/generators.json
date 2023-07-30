@@ -12,6 +12,11 @@
       "factory": "./src/generators/poetry-project/generator",
       "schema": "./src/generators/poetry-project/schema.json",
       "description": "Python Poetry Project"
+    },
+    "poetry-project-skerna": {
+      "factory": "./src/generators/poetry-project-skerna/generator",
+      "schema": "./src/generators/poetry-project-skerna/schema.json",
+      "description": "Python Poetry Project"
     }
   }
 }
