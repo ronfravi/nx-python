@@ -78,7 +78,7 @@
     "dynamoose": "^3.2.0",
     "esbuild": "~0.17.19",
     "file-uri-to-path": "^2.0.0",
-    "fs-extra": "^11.1.0",
+    "fs-extra": "^11.1.1",
     "glob": "^10.2.6",
     "prompts": "^2.4.2",
     "tslib": "^2.3.0",
