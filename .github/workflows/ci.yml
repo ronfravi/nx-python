@@ -48,4 +48,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           HUSKY: '0'
         run: |
-          npx nx affected --target release --parallel=false
+          npx nx run-many --target release --parallel=false
